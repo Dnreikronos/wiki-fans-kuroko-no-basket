@@ -4,7 +4,7 @@ import imagem from "../../assets/kuroko-no-basket.jpg";
 const HomePage = () => {
   return (
     <>
-      <div className="flex flex-col  items-center h-[110vh] bg-background-kuroko">
+      <div className="flex flex-col  font-projectFonts items-center h-[110vh] bg-background-kuroko">
         
         <div className="text-white text-4xl mt-6">
           <h1>Kuroko no Basket Wiki</h1>
