@@ -25,7 +25,7 @@ function App() {
       errorElement: <NotFoundPage />
     },
   ]);
-
+  
   return (
     <>
       <RouterProvider router={router} />
