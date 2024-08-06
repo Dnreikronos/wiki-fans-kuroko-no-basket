@@ -1,6 +1,7 @@
 import React from "react";
 import imagem from "../../assets/kuroko-no-basket.jpg";
 import axios from 'axios'
+import Characters from "../components/Characters";
 import { useEffect , useState} from "react";
 const HomePage = () => {
 
@@ -25,6 +26,7 @@ const HomePage = () => {
         </div>
         
         <div className="h-[80vh] w-[150vh] mt-20 rounded-xl bg-white">
+         <Characters/>
         </div>
 
       </div>
