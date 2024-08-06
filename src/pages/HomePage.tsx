@@ -1,6 +1,7 @@
 import React from "react";
 import imagem from "../../assets/kuroko-no-basket.jpg";
 
+
 const HomePage = () => {
   return (
     <>
@@ -11,7 +12,6 @@ const HomePage = () => {
         </div>
 
         <div className="h-[80vh] w-[150vh] mt-20 rounded-xl bg-white">
-          
         </div>
 
       </div>
