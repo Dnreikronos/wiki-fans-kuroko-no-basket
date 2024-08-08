@@ -1,43 +1,29 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-// import ExampleCarouselImage from "compone";
+import Card from "react-bootstrap/Card";
+import Placeholder from "react-bootstrap/Placeholder";
+import Button from "react-bootstrap/Button";
+import kagami from "../images/kagami.jpg";
+import tetsuya from "../images/tetsuya.png";
 
-const Characters:  React.FC = () =>{
+const Characters: React.FC = () => {
+  return (
     
-        
-    return (
-        <Carousel fade>
-          <Carousel.Item>
-            {/* <ExampleCarouselImage text="First slide" /> */}
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            {/* <ExampleCarouselImage text="Second slide" /> */}
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            {/* <ExampleCarouselImage text="Third slide" /> */}
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      );
-
-
-}
-
-
-
+      
+      <div className="d-flex justify-content-around bg-slate-50 w-60">
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" className="h-80" src={kagami} />
+          <Card.Body>
+            <Card.Title className="d-flex right-11">Kagami</Card.Title>
+            <Card.Text>
+             
+            </Card.Text>
+            <Button variant="primary">Character Detail</Button>
+          </Card.Body>
+        </Card>
+      </div>
+    
+    
+  );
+};
 
 export default Characters;
-

@@ -1,7 +1,0 @@
-import React, { Component } from 'react';
-
-class ExampleCarouselImage extends Component {
-  
-}
-
-export default ExampleCarouselImage;
