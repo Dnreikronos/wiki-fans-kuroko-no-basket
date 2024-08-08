@@ -1,7 +1,7 @@
 import React from "react";
 import imagem from "../../assets/kuroko-no-basket.jpg";
 import axios from 'axios'
-import Characters from "../components/Characters";
+import Characters from "../components/Characters"
 import { useEffect , useState} from "react";
 const HomePage = () => {
 
