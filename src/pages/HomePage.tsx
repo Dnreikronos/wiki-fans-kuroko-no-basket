@@ -19,7 +19,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="flex flex-col  font-projectFonts items-center h-[110vh] bg-background-kuroko">
+      <div className="flex flex-col  font-projectFonts items-center h-[110vh] bg-background-kuroko scale-100">
         
         <div className="text-white text-4xl mt-6">
           <h1>Kuroko no Basket Wiki</h1>
