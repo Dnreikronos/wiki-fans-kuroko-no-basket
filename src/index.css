@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  background-image: url("../assets/kuroko-no-basket.jpg");
+  background-size: cover ;
+  
+  background-repeat: no-repeat;
+  
+}
