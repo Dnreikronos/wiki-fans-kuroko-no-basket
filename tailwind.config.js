@@ -13,7 +13,6 @@ export default {
       backgroundImage: {
         'background-kuroko': "url('/assets/kuroko-no-basket.jpg')",
         'backgruond-404': "url('/assets/404-background.png')",
-        'img-kuroko': "url('/image/tetsuya.png')"
       }
     },
   },
