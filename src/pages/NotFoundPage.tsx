@@ -5,9 +5,9 @@ const NotFoundPage = () => {
   return (
     <>
 
-        <div className="flex  felx-col items-center justify-center items-center h-[100vh] bg-backgruond-404 object-center text-5xl text-white font-projectFont">
+        <div className="bg-backgruond-404 h-screen bg-no-repeat bg-cover   ">
         
-        <div className="mb-96"> 
+        <div className="font-projectFont text-5xl flex  felx-col   justify-center items-center text-white"> 
           <Link to="/"> Go Back Home </Link>
         </div>
 
