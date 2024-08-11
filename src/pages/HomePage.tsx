@@ -1,7 +1,8 @@
 import React from "react";
 import imagem from "../../assets/kuroko-no-basket.jpg";
 
-import Characters from "../components/Characters";
+
+import Galery from "../components/Galery";
 
 import { Container } from "@mui/material";
 const HomePage = () => {
@@ -18,9 +19,9 @@ const HomePage = () => {
           </div>
 
           <div className="h-[80vh] w-[150vh]   rounded-xl  bg-transparent">
-            <div className="">
-              <Characters />
-            </div>
+          <Container maxWidth="xl">
+              <Galery  />
+            </Container>
           </div>
           </div>
       </div>
