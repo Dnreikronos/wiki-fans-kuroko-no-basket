@@ -15,7 +15,6 @@ const RenderDetailsCharacters = () => {
             <h1>Abilities: {character.abilities}</h1>
             <h1>Team: {character.team}</h1>
             <h1>Coach: {character.coach}</h1>
-            <h1>Gender: {character.gender}</h1>
             <h1>Weight: {character.weight}</h1>
             <h1>Description: {character.description}</h1>
             <div className="items-center justify-center flex flex-col size-full">
