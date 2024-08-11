@@ -1,20 +1,10 @@
 import React from "react";
 import imagem from "../../assets/kuroko-no-basket.jpg";
-import axios from "axios";
+
 import Characters from "../components/Characters";
-import { useEffect, useState } from "react";
+
 import { Container } from "@mui/material";
 const HomePage = () => {
-  const [characterList, setCharacterList] = useState([]);
-  useEffect(() => {
-    axios
-      .get("http://localhost:9000/")
-      .then((res) => {
-        console.log(res.data);
-        setCharacterList(res.data);
-      })
-      .catch((err) => console.log(err));
-  }, []);
 
   <script src="https://cdn.tailwindcss.com"></script>;
 
