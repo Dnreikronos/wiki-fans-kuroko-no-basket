@@ -42,7 +42,7 @@ export default function TitlebarImageList() {
             title={character.name}
             actionIcon={
               <Link state={{character: character}} to="/RenderDetailsCharacters">
-                <Button >Test</Button>
+                <Button className="font-projectFont text-white">Specific Character Detail</Button>
               </Link> 
             }
           />
