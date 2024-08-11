@@ -27,8 +27,10 @@ const HomePage = () => {
             <h1>Kuroko no Basket Wiki</h1>
           </div>
 
-          <div className="h-[80vh] w-[150vh]  mt-5 rounded-xl  bg-transparent">
-            <Characters />
+          <div className="h-[80vh] w-[150vh]   rounded-xl  bg-transparent">
+            <div className="">
+              <Characters />
+            </div>
           </div>
           </div>
       </div>
