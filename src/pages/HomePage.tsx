@@ -7,7 +7,7 @@ import Galery from "../components/Galery";
 import { Container } from "@mui/material";
 const HomePage = () => {
 
-  <script src="https://cdn.tailwindcss.com"></script>;
+  
 
   return (
     <>
