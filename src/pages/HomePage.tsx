@@ -13,9 +13,7 @@ const HomePage = () => {
         </div>
         <div className="bg-gray-50/50 ">
           <div className="   rounded-xl  bg-transparent">
-            {/* <Container maxWidth="xl"> */}
-              <Galery />
-            {/* </Container> */}
+            <Galery />
           </div>
         </div>
       </div>
