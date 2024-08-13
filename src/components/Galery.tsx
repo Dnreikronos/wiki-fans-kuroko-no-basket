@@ -9,8 +9,24 @@ import { Button } from "@mui/material";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
+
+interface Character {
+  id: BigInt64Array;
+  age: BigInt64Array;
+  name : string ;
+  description: string;
+  height: string;
+  abilities: string;
+  team: string;
+  coach: string;
+  gender: string;
+  weight: string;
+  image: string;
+  gif: string;
+}
+
 export default function TitlebarImageList() {
-  const [characterList, setCharacterList] = useState([]);
+  const [characterList, setCharacterList] = useState<Character[]>([]);
   useEffect(() => {
     axios
       .get("http://localhost:9000/")
@@ -30,7 +46,7 @@ export default function TitlebarImageList() {
           Characters
         </ListSubheader>
       </ImageListItem>
-      {characterList.map((character: any) => (
+      {characterList.map((character) => (
         <ImageListItem key={character.image}>
           <img
             srcSet={`${character.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
@@ -41,7 +57,7 @@ export default function TitlebarImageList() {
           <ImageListItemBar
             title={character.name}
             actionIcon={
-              <Link state={{character: character}} to="/RenderDetailsCharacters">
+              <Link state={{character}} to="/RenderDetailsCharacters">
                 <Button className="font-projectFont text-white">Specific Character Detail</Button>
               </Link> 
             }
