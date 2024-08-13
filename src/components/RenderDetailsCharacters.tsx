@@ -26,8 +26,5 @@ const RenderDetailsCharacters = () => {
     </div>
   );
 };
-{
-  /* <h1>{character.name}</h1>
-      <h1>Teste</h1 */
-}
+
 export default RenderDetailsCharacters;
