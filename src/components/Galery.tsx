@@ -29,7 +29,7 @@ export default function TitlebarImageList() {
   const [characterList, setCharacterList] = useState<Character[]>([]);
   useEffect(() => {
     axios
-      .get("http://localhost:9000/")
+      .get("http://52.202.238.19:9000/")
       .then((res) => {
         console.log(res.data);
         setCharacterList(res.data);
