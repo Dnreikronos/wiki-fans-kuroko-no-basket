@@ -1,9 +1,5 @@
-import React from "react";
-import imagem from "../../assets/kuroko-no-basket.jpg";
-
 import Galery from "../components/Galery";
 
-import { Container } from "@mui/material";
 const HomePage = () => {
   return (
     <>
