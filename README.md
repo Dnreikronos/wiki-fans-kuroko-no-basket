@@ -8,7 +8,6 @@
     <li><a href="#features">Features</a></li>
     <li><a href="#technologies-used">Technologies Used</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#deployment">Deployment</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
 </ul>
 
