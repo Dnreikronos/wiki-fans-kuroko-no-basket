@@ -60,10 +60,10 @@
 <ul>
     <li><strong>Home Page:</strong></li>
     <img src="/assets/screen_home_page.png" alt="Home Page Screenshot" width="600"/>
-    
-    <li><strong>Details Character:</strong></li>
+    --
+     <li><strong>Details Character:</strong></li>
     <img src="/assets/details-screenshot.png" alt="Character Details Screenshot" width="600"/>
-
+    --
     <li><strong>Not Found Page:</strong></li>
     <img src="/assets/not-found-screeshot.png" alt="Not Found Page" width="600"/>
 </ul>
